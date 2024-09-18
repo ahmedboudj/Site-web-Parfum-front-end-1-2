@@ -1,0 +1,27 @@
+.header {
+  background-color: #383838;
+
+  img {
+    width: 180px;
+    padding: 0px 0 0px 30px;
+  }
+
+  li {
+    display: inline-block;
+    padding: 15px;
+  }
+
+  .icon {
+    color: white;
+  }
+}
+
+.produitsFavoris {
+  position: relative;
+  top: -7px;
+  display: inline-block;
+  color: var(--favoris);
+  right: 7px;
+  font-size: 16px;
+  font-weight: bold;
+}

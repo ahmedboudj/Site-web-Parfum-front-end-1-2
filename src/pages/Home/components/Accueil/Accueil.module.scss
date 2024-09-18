@@ -1,0 +1,56 @@
+.root {
+  background-color: #000000; 
+}
+
+.image_accueil {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  max-width: 50%;
+}
+
+.text_accueil {
+  background-color: #000000;
+  padding: 20px;
+  margin: 20px;
+  color: #ffffff;
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .decouvrir {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #012953;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #023f81;
+    }
+  }
+}
+
+.m20 {
+  margin: 20px;
+}
+
+.p20 {
+  padding: 20px;
+}
+
+.hover_opacity:hover {
+  opacity: 0.8;
+}
